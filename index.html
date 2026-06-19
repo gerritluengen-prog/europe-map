@@ -32,10 +32,9 @@
     }
 
     header {
-      background: linear-gradient(135deg, #14532d, #16a34a);
-      color: white;
-      padding: 20px 40px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+     background: linear-gradient(135deg, #0f172a, #1e293b);
+     color: white;
+     padding: 20px 40px;
     }
 
     header h1 {
@@ -244,50 +243,47 @@ td {
 tr:nth-child(even) {
   background: #f8fafc;
 }
-    .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
 }
 
 .header-text {
-    flex: 1;
-}
-
-.header-logo {
-    display: flex;
-    align-items: center;
+  flex: 1;
 }
 
 .header-logo img {
-    height: 140px;
-    width: auto;
-    object-fit: contain;
+  height: 120px;
+  width: auto;
+  object-fit: contain;
 }
   </style>
 </head>
 
 <body>
-  <header class="header-container">
+  <header>
+  <div class="header-container">
 
     <div class="header-text">
-        <h1>European Grid Connection Frameworks</h1>
+      <h1>European Grid Connection Frameworks</h1>
+      <p>
+        Comparative analysis of grid connection procedures,
+        regulatory frameworks and implementation practices in
+        Germany, Austria, Italy, Portugal and Türkiye.
+      </p>
 
-        <p>
-            Comparative analysis of grid connection procedures,
-            regulatory frameworks and implementation practices in
-            Germany, Austria, Italy, Portugal and Turkey.
-        </p>
+      <button id="comparison-button" onclick="openComparisonModal()">
+        Compare key project countries
+      </button>
     </div>
 
     <div class="header-logo">
-        <img src="assets/project-logo.png" alt="Project Logo">
+      <img src="assets/logo.png" alt="Project Logo">
     </div>
-    
-    <button id="comparison-button" onclick="openComparisonModal()">
-        Compare key project countries
-    </button>
+
+  </div>
 </header>
  
 
