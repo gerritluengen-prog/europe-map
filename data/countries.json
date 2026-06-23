@@ -3,6 +3,8 @@
     "title": "Germany",
     "summary": "Example entry for Germany. Replace or expand this text with your project findings.",
     "gridConnectionProcedure": "Grid connection procedures are shaped by national energy law, technical network codes and the requirements of the responsible network operator. Add your detailed analysis here.",
+    
+    
     "regulatoryFramework": [
       "Energy Industry Act (EnWG)",
       "Renewable Energy Sources Act (EEG)",
@@ -17,7 +19,7 @@
       "Connection requests for renewable generation projects are processed by the relevant network operator.",
       "Grid expansion planning is coordinated through national network development planning."
     ],
-    "New consumers and flexible loads":[
+    "Newconsumersandflexibleloads":[
     ],
     "sources": [
       {
