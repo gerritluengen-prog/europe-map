@@ -347,8 +347,6 @@ function openComparisonModal() {
       <td>${data.gridConnectionProcedure || "Not specified yet."}</td>
       <td>${formatList(data.regulatoryFramework)}</td>
       <td>${formatList(data.implementationExamples)}</td>
-      <td>${formatList(data.strategiesvolatility)}</td>
-      <td>${formatList(data.newconsumersandflexibleloads)}</td>
     `;
 
     tableBody.appendChild(row);
@@ -559,8 +557,6 @@ function formatList(items) {
             <th>Connection procedure</th>
             <th>Key legal / regulatory basis</th>
             <th>Implementation example</th>
-            <th>Strategies to reduce grid load volatility</th>
-            <th>New consumers and flexible loads</th>
           </tr>
         </thead>
         <tbody id="comparison-table-body">
