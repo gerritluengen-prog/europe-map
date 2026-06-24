@@ -13,7 +13,7 @@
       "Renewable Energy Sources Act (EEG)",
       "Technical connection rules of the relevant grid operator"
     ],
-    "responsibleInstitutions": [
+    "gridOperators": [
       "Federal Network Agency (Bundesnetzagentur)",
       "Transmission system operators: 50Hertz, Amprion, TenneT, TransnetBW",
       "Distribution system operators"
