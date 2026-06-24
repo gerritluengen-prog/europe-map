@@ -317,11 +317,7 @@ tr:nth-child(even) {
       attribution: "&copy; OpenStreetMap contributors &copy; CARTO"
     }).addTo(map);
 
-    const countryColors = [
-      "#f87171", "#60a5fa", "#34d399", "#fbbf24", "#a78bfa",
-      "#fb923c", "#22d3ee", "#f472b6", "#84cc16", "#c084fc",
-      "#2dd4bf", "#facc15"
-    ];
+  
 
     const comparisonCountries = [
   "Germany",
@@ -380,18 +376,67 @@ function formatList(items) {
       return feature.properties.ADMIN || feature.properties.NAME || feature.properties.name || "Unknown country";
     }
 
-    function styleCountry(feature) {
-      const name = countryName(feature);
-      const color = countryColors[hashCode(name) % countryColors.length];
+  const countryColorMap = {
+  "Albania": "#e6194b",
+  "Andorra": "#3cb44b",
+  "Austria": "#ffe119",
+  "Belarus": "#4363d8",
+  "Belgium": "#f58231",
+  "Bosnia and Herzegovina": "#911eb4",
+  "Bulgaria": "#46f0f0",
+  "Croatia": "#f032e6",
+  "Cyprus": "#bcf60c",
+  "Czechia": "#fabebe",
+  "Denmark": "#008080",
+  "Estonia": "#e6beff",
+  "Finland": "#9a6324",
+  "France": "#fffac8",
+  "Germany": "#800000",
+  "Greece": "#aaffc3",
+  "Hungary": "#808000",
+  "Iceland": "#ffd8b1",
+  "Ireland": "#000075",
+  "Italy": "#808080",
+  "Kosovo": "#ffd700",
+  "Latvia": "#dc143c",
+  "Liechtenstein": "#00ced1",
+  "Lithuania": "#ff69b4",
+  "Luxembourg": "#7fffd4",
+  "Malta": "#b8860b",
+  "Moldova": "#6a5acd",
+  "Monaco": "#ff4500",
+  "Montenegro": "#2e8b57",
+  "Netherlands": "#1e90ff",
+  "North Macedonia": "#ff1493",
+  "Norway": "#8b4513",
+  "Poland": "#adff2f",
+  "Portugal": "#4b0082",
+  "Romania": "#ff8c00",
+  "Russia": "#20b2aa",
+  "San Marino": "#c71585",
+  "Serbia": "#708090",
+  "Slovakia": "#00ff7f",
+  "Slovenia": "#4682b4",
+  "Spain": "#daa520",
+  "Sweden": "#7b68ee",
+  "Switzerland": "#b22222",
+  "Turkey": "#228b22",
+  "Ukraine": "#4169e1",
+  "United Kingdom": "#ff6347",
+  "Vatican": "#9370db"
+};
 
-      return {
-        color: "#ffffff",
-        weight: 1,
-        fillColor: color,
-        fillOpacity: 0.78
-      };
-    }
+function styleCountry(feature) {
+  const name = countryName(feature);
+  const color = countryColorMap[name] || "#cccccc";
 
+  return {
+    color: "#ffffff",
+    weight: 1.2,
+    fillColor: color,
+    fillOpacity: 0.82
+  };
+}
     function highlightCountry(e) {
       e.target.setStyle({
         weight: 2.5,
