@@ -30,6 +30,16 @@
       background: var(--bg);
       color: var(--text);
     }
+Nachgedacht für 28s
+
+Der Code ist jetzt an der richtigen Stelle, aber er hängt noch am window.load-Ereignis. Wenn vorher etwas beim Laden blockiert oder der Browser das Ereignis schon verpasst, bleibt der Startbildschirm sichtbar. In deiner Datei ist der Splash-Screen vorhanden und der rechte Bereich ist bereits auf 1fr 1fr gesetzt, also 50/50.
+
+Mach es robuster so:
+
+1. Ersetze dein Splash-CSS
+
+Suche diesen Block:
+
 #splash-screen {
   position: fixed;
   inset: 0;
@@ -50,6 +60,33 @@
 #splash-screen.fade-out {
   opacity: 0;
   visibility: hidden;
+}
+
+Ersetze ihn durch:
+
+#splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: splashFadeOut 0.8s ease 2.5s forwards;
+}
+
+#splash-screen img {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+@keyframes splashFadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
     header {
      background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -671,19 +708,7 @@ function styleCountry(feature) {
       `;
       console.error(error);
     });
-        window.addEventListener("load", function () {
-  setTimeout(function () {
-    const splashScreen = document.getElementById("splash-screen");
-
-    if (splashScreen) {
-      splashScreen.classList.add("fade-out");
-
-      setTimeout(function () {
-        splashScreen.remove();
-      }, 800);
-    }
-  }, 2500);
-});
+      
   </script>
   <div id="comparison-modal" class="modal">
     <div class="modal-content">
