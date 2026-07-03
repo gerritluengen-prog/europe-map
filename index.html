@@ -286,19 +286,7 @@ tr:nth-child(even) {
   width: auto;
   object-fit: contain;
 }
-    window.addEventListener("load", function () {
-  setTimeout(function () {
-    const splashScreen = document.getElementById("splash-screen");
 
-    if (splashScreen) {
-      splashScreen.classList.add("fade-out");
-
-      setTimeout(function () {
-        splashScreen.remove();
-      }, 800);
-    }
-  }, 2500);
-});
   </style>
 </head>
 
@@ -683,6 +671,19 @@ function styleCountry(feature) {
       `;
       console.error(error);
     });
+        window.addEventListener("load", function () {
+  setTimeout(function () {
+    const splashScreen = document.getElementById("splash-screen");
+
+    if (splashScreen) {
+      splashScreen.classList.add("fade-out");
+
+      setTimeout(function () {
+        splashScreen.remove();
+      }, 800);
+    }
+  }, 2500);
+});
   </script>
   <div id="comparison-modal" class="modal">
     <div class="modal-content">
