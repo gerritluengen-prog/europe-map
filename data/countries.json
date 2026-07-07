@@ -3,9 +3,9 @@
   "title": "Germany",
   "summary": "Deutschland",
   "gridConnectionProcedure": [
-    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point",
-    "For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator",
-    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances"
+    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG.",
+    "Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point. For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator.",
+    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
   ],
   "strategiesvolatility": [
     "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion",
