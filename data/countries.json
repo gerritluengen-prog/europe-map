@@ -2,20 +2,29 @@
   "Germany": {
   "title": "Germany",
   "summary": "Example entry for Germany. Replace or expand this text with your project findings.",
-  "gridConnectionProcedure": "Grid connection procedures are shaped by national energy law, technical network codes and the requirements of the responsible network operator. Add your detailed analysis here.",
-
+  "gridConnectionProcedure": [
+    "Renewable energy plants have a statutory right to prompt grid connection under the Renewable Energy Sources Act, especially Section 8 EEG. Grid operators are required to connect renewable installations at the technically and economically suitable grid connection point.",
+    "For low-voltage installations, the practical connection process is shaped by the Low Voltage Connection Ordinance, the technical connection rules and the requirements of the local distribution system operator.",
+    "Distributed generation units connected to the low-voltage grid must comply with VDE-AR-N 4105, which includes requirements for dynamic grid support, reactive power provision and stable behaviour during voltage disturbances."
+  ],
   "strategiesvolatility": [
-    "djnwjwnevdkc"
+    "Germany has introduced a highly relevant mechanism through Section 14a EnWG, allowing distribution system operators to temporarily reduce the power of controllable consumption devices during imminent grid congestion.",
+    "The mechanism applies particularly to heat pumps, private EV charging points, battery storage systems and air-conditioning units. In return, consumers receive reduced network charges.",
+    "Grid-supporting inverter behaviour under VDE-AR-N 4105 helps to stabilise voltage in low-voltage networks with high photovoltaic penetration."
   ],
 
   "regulatoryFramework": [
-    "Energy Industry Act (EnWG)",
-    "Renewable Energy Sources Act (EEG)",
-    "Technical connection rules of the relevant grid operator"
+    "Energy Industry Act: EnWG, especially Section 14a.",
+    "Renewable Energy Sources Act: EEG, especially Sections 8 ff.",
+    "Low Voltage Connection Ordinance: NAV.",
+    "Metering Point Operation Act: MsbG.",
+    "Technical rules: VDE-AR-N 4100 and VDE-AR-N 4105."
   ],
 
   "responsibleInstitutions": [
-    "Federal Network Agency (Bundesnetzagentur)"
+    "Bundesnetzagentur: national regulatory authority.",
+    "Local distribution system operators: e.g. Westnetz, Bayernwerk, Netze BW, E.DIS.",
+    "VDE FNN: technical connection rules."
   ],
 
   "gridOperators": [
@@ -27,12 +36,13 @@
   ],
 
   "implementationExamples": [
-    "Connection requests for renewable generation projects are processed by the relevant network operator.",
-    "Grid expansion planning is coordinated through national network development planning."
+   "From 2024 onwards, new controllable devices cannot generally be refused connection merely because of potential congestion; instead, the DSO may temporarily limit consumption during critical grid situations.",
+   "EV chargers or heat pumps may be reduced to a lower operating level rather than disconnected completely.",
+   "Reduced network charges create a financial incentive for consumers to provide flexibility."
   ],
 
   "newconsumersandflexibleloads": [
-    "snxncsncjkcnncs"
+    "Electric vehicles, heat pumps, battery storage systems and air-conditioning units are explicitly treated as controllable consumption devices under the new Section 14a framework."
   ],
 
   "sources": [
@@ -41,8 +51,28 @@
       "url": "https://www.gesetze-im-internet.de/enwg_2005/"
     },
     {
-      "name": "Bundesnetzagentur",
+      "name": "Renewable Energy Sources Act (EEG)",
+      "url": "https://www.gesetze-im-internet.de/eeg_2014/"
+    },
+    {
+      "name": "Federal Network Agency (Bundesnetzagentur – BNetzA)",
       "url": "https://www.bundesnetzagentur.de/"
+    },
+    {
+      "name": "Federal Ministry for Economic Affairs and Energy (BMWE)",
+      "url": "https://www.bundeswirtschaftsministerium.de/Navigation/DE/Home/home.html"
+    },
+    {
+      "name": "Low Voltage Connection Ordinance (NAV)",
+      "url": "https://www.gesetze-im-internet.de/nav/"
+    },
+    {
+      "name": "Metering Point Operation Act (MsbG)",
+      "url": "https://www.gesetze-im-internet.de/messbg/"
+    },
+    {
+      "name": "VDE FNN (Forum Netztechnik/Netzbetrieb)",
+      "url": "https://www.vde.com/de/fnn"
     }
   ]
 },
@@ -73,15 +103,71 @@
 },
   "Portugal": {
   "title": "Portugal",
-  "summary": "Add country-specific information here.",
-  "gridConnectionProcedure": "",
-  "strategiesvolatility": [],
-  "regulatoryFramework": [],
-  "responsibleInstitutions": [],
+  "summary": "",
+  "gridConnectionProcedure": [
+    "Portugal’s electricity system is governed by Decree-Law No. 15/2022, which establishes the organisation and functioning of the national electricity system, the Sistema Elétrico Nacional.",
+    "Self-consumption installations, known as UPAC, are registered and operated under the Portuguese self-consumption framework.",
+    "Connection to the public electricity grid, RESP, involves technical verification by the relevant network operator and regulatory compliance with ERSE rules."
+  ],
+  "strategiesvolatility": [
+   "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use.",
+   "The self-consumption regulation defines 15-minute energy balancing intervals, which is relevant for allocating consumption and injection in decentralised systems.",
+   "Smart grid services and digital metering are used to improve data availability, transparency and network operation."
+  ],
+  "regulatoryFramework": [
+   "Decree-Law No. 15/2022: general electricity system law.",
+   "ERSE Regulation No. 2/2023: self-consumption regulation.",
+   "ERSE rules on smart grids, metering and electric mobility."
+  ],
+  "responsibleInstitutions": [
+    "ERSE: national regulatory authority for energy services.",
+    "DGEG: Directorate-General for Energy and Geology, responsible for licensing and administrative energy procedures.",
+    "E-REDES: main distribution system operator."
+  ],
   "gridOperators": [],
-  "implementationExamples": [],
-  "newconsumersandflexibleloads": [],
-  "sources": []
+  "implementationExamples": [
+    "Collective self-consumption allows several consumers to share locally produced renewable electricity.",
+    "Renewable energy communities can use UPAC generation and distribute benefits among members.",
+    "E-REDES provides operational information for production licensing and connection to the RESP."
+  ],
+  "newconsumersandflexibleloads": [
+    "UPAC installations, battery storage, renewable energy communities, EV charging infrastructure and collective self-consumption schemes.",
+    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision."
+  ],
+  "sources": [
+      {
+      "name": "Energy Services Regulatory Authority (ERSE)",
+      "url": "https://www.erse.pt/en/home/"
+      },
+      {
+      "name": "Directorate-General for Energy and Geology (DGEG)",
+      "url": "https://www.dgeg.gov.pt/en/"
+      },
+      {
+      "name": "Distribution System Operator (E-REDES)",
+      "url": "https://www.e-redes.pt/en"
+      },
+      {
+      "name": "Transmission System Operator (REN)",
+      "url": "https://www.ren.pt/en-gb"
+      },
+      {
+      "name": "Regulatory Framework - Decree-Law No. 15/2022",
+      "url": "https://files.dre.pt/1s/2022/01/01000/0000300185.pdf?utm_source=chatgpt.com"
+      },
+      {
+      "name": "ERSE Self-consumption Regulation",
+      "url": "https://www.erse.pt/en/activities/regulations-electricity/self-consumption/"
+      },
+      {
+      "name": "Regulation No. 2/2023 (Autoconsumo)",
+      "url": "https://www.erse.pt/media/evihzamf/regulamento-2_2023-regulamento-do-autoconsumo.pdf?utm_source=chatgpt.com"
+      },
+      {
+      "name": "Electric Mobility Regulation",
+      "url": "https://www.erse.pt/en/activities/regulation-electric-mobility/"
+      }
+  ]
 },
   "France": {
     "title": "France",
@@ -121,38 +207,113 @@
   },
   "Netherlands": {
     "title": "Netherlands",
-    "summary": "Add country-specific information here.",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "summary": "",
+    "gridConnectionProcedure": [
+      "The Dutch electricity system is regulated through the Netcode Elektriciteit, which sets rules for network operation, grid connection and electricity transport.",
+      "Due to severe grid congestion, grid connection is no longer only a technical procedure but increasingly a capacity allocation problem.",
+      "In congested areas, new renewable generation, batteries, heat pumps, charging stations and industrial loads may face waiting lists or conditional connection arrangements."
+    ],
+    "strategiesvolatility": [
+      "The Netherlands is one of Europe’s most important case studies for grid congestion management. ACM has introduced measures to incentivise large users to reduce or avoid grid use during peak hours.",
+      "Congestion management rules allow system operators and large users to free up capacity for renewable projects, EV charging infrastructure, heat pumps and other electrified loads.",
+      "Flexible grid use, off-peak contracts and congestion steering contracts are increasingly used to make better use of existing capacity."
+    ],
+    "regulatoryFramework": [
+      "Electricity Act",
+      "Netcode Elektriciteit",
+      "ACM code decisions on congestion management and flexible use of the grid"
+    ],
+    "responsibleInstitutions": [
+      "ACM: Netherlands Authority for Consumers and Markets, national regulatory authority.",
+      "TenneT: transmission system operator.",
+      "Regional DSOs: Liander, Enexis, Stedin."
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": []
+    "implementationExamples": [
+      "ACM has approved measures that financially reward large users for reducing consumption during peak periods.",
+      "TenneT has made more than 9 GW of capacity available through off-peak flexible contracts.",
+      "The Netherlands is therefore a strong reference country for flexibility before reinforcement."
+    ],
+    "newconsumersandflexibleloads": [
+      "EV charging stations, heat pumps, electric boilers, battery systems, data centres and industrial electrification projects.",
+      "These loads are relevant because they intensify peak demand and contribute to congestion in both transmission and distribution grids."
+    ],
+    "sources": [
+      {
+      "name": "",
+      "url": ""
+      }
+    ]
   },
   "Denmark": {
     "title": "Denmark",
-    "summary": "Add country-specific information here.",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "summary": "",
+    "gridConnectionProcedure": [
+      "Danish grid connection is coordinated through Energinet, distribution companies and technical rules for production and demand installations. Energinet publishes rules, conditions and methods for grid connection and system operation.",
+      "Renewable generators must comply with national requirements and European network codes, including requirements for wind turbines, photovoltaic plants and other renewable technologies.",
+      "Low-voltage demand installations are covered by technical guidance for connection to the low-voltage grid."
+    ],
+    "strategiesvolatility": [
+      "Denmark uses market-based flexibility, dynamic price signals and short-term electricity markets to integrate large shares of wind and solar power.",
+      "Energinet highlights that the need for flexibility increases with renewable energy expansion and that 15-minute trading supports better balancing of forecast errors and variable generation.",
+      "Danish regulators emphasise cost-reflective tariffs, transparency and non-discrimination when designing flexibility-oriented tariff structures."
+    ],
+    "regulatoryFramework": [
+      "Danish Electricity Supply Act",
+      "Danish Renewable Energy Act",
+      "Executive orders on grid connection of wind turbines, photovoltaic power stations, wave farms and hydropower plants",
+      "Energinet technical rules and market rules"
+    ],
+    "responsibleInstitutions": [
+      "Danish Utility Regulator: national regulatory authority",
+      "Energinet: transmission system operator",
+      "Distribution system operators such as N1 and Radius/Andel"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
+    "implementationExamples": [
+      "15-minute intraday trading and balancing market reforms allow market participants to adjust production and consumption closer to real time",
+      "Tariff reform and digitalisation are being used to activate demand-side flexibility"
+    ],
+    "newconsumersandflexibleloads": [
+      "Electric vehicles, heat pumps, data centres, Power-to-X, electrolysers and industrial electrification are considered important future flexibility resources",
+      "Denmark is especially relevant because demand-side flexibility is linked to wind power integration and sector coupling"
+    ],
     "sources": []
   },
   "Norway": {
     "title": "Norway",
-    "summary": "Add country-specific information here.",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "summary": "",
+    "gridConnectionProcedure": [
+      "Norway applies grid connection codes for generators, demand connections and HVDC systems as part of Norwegian energy regulation",
+      "The Norwegian energy system is regulated by NVE/RME, with the Energy Act forming the main legal framework for electricity market regulation",
+      "Norway is not an EU Member State, but it is closely integrated into the Nordic and European electricity system through EEA-related regulation and Nordic market cooperation"
+    ],
+    "strategiesvolatility": [
+      "Norway is highly relevant because of its very high EV penetration and strong reliance on electric heating",
+      "Capacity-based grid tariffs for low-voltage customers were introduced to incentivise consumers to reduce peak loads and shift flexible consumption",
+      "Non-firm connection agreements allow grid companies to curtail consumption under agreed conditions, reducing the need for immediate grid reinforcement"
+    ],
+    "regulatoryFramework": [
+      "Norwegian Energy Act",
+      "NVE/RME regulations on grid tariffs",
+      "Norwegian implementation of grid connection codes: RfG, DCC and HVDC"
+    ],
+    "responsibleInstitutions": [
+      "NVE: Norwegian Water Resources and Energy Directorate",
+      "RME: Norwegian Energy Regulatory Authority",
+      "Statnett: transmission system operator",
+      "Regional distribution system operators"
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
+    "implementationExamples": [
+      "Capacity-based network tariffs encourage households to avoid simultaneous high-power consumption",
+      "Smart EV charging is used as a practical instrument to reduce local peak loads",
+      "Non-firm connection agreements provide a regulatory tool for connecting flexible demand without immediately expanding the grid",
+    ],
+    "newconsumersandflexibleloads": [
+      "Electric vehicles, electric heating, heat pumps, household batteries, distributed solar PV and flexible industrial demand",
+      "EV charging is particularly important because unmanaged charging can create local peak-load problems, while smart charging can defer or reduce network reinforcement needs"
+    ],
     "sources": []
   },
   "Sweden": {
