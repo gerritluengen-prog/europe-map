@@ -239,10 +239,46 @@
       "These loads are relevant because they intensify peak demand and contribute to congestion in both transmission and distribution grids."
     ],
     "sources": [
-      {
-      "name": "",
-      "url": ""
-      }
+     {
+    "name": "Authority for Consumers and Markets (ACM)",
+    "url": "https://www.acm.nl/en"
+  },
+  {
+    "name": "ACM – Electricity and Energy",
+    "url": "https://www.acm.nl/en/topics/energy"
+  },
+  {
+    "name": "ACM – Grid Congestion",
+    "url": "https://www.acm.nl/en/topics/energy/electricity/grid-congestion"
+  },
+  {
+    "name": "Netcode Elektriciteit",
+    "url": "https://www.acm.nl/en/publications/netcode-electricity"
+  },
+  {
+    "name": "Dutch Electricity Act (Elektriciteitswet)",
+    "url": "https://wetten.overheid.nl/BWBR0009755/"
+  },
+  {
+    "name": "Ministry of Climate Policy and Green Growth",
+    "url": "https://www.government.nl/ministries/ministry-of-climate-policy-and-green-growth"
+  },
+  {
+    "name": "TenneT Netherlands",
+    "url": "https://www.tennet.eu"
+  },
+  {
+    "name": "Liander",
+    "url": "https://www.liander.nl"
+  },
+  {
+    "name": "Enexis",
+    "url": "https://www.enexis.nl"
+  },
+  {
+    "name": "Stedin",
+    "url": "https://www.stedin.net"
+  }
     ]
   },
   "Denmark": {
@@ -278,7 +314,40 @@
       "Electric vehicles, heat pumps, data centres, Power-to-X, electrolysers and industrial electrification are considered important future flexibility resources",
       "Denmark is especially relevant because demand-side flexibility is linked to wind power integration and sector coupling"
     ],
-    "sources": []
+    "sources": [
+        {
+    "name": "Danish Utility Regulator (Forsyningstilsynet)",
+    "url": "https://forsyningstilsynet.dk"
+  },
+  {
+    "name": "Danish Energy Agency",
+    "url": "https://ens.dk/en"
+  },
+  {
+    "name": "Energinet",
+    "url": "https://en.energinet.dk"
+  },
+  {
+    "name": "Energinet – Rules, Regulations, Conditions and Methods",
+    "url": "https://en.energinet.dk/rules-regulations-conditions-and-methods/"
+  },
+  {
+    "name": "Green Power Denmark",
+    "url": "https://greenpowerdenmark.dk"
+  },
+  {
+    "name": "Guide for Grid Connection of Demand Installations to the Low Voltage Grid",
+    "url": "https://greenpowerdenmark.dk/files/media/document/Guide-for-grid-connection-of-demand-installations-to-the-low-voltage-grid.pdf"
+  },
+  {
+    "name": "Danish Electricity Supply Act (Elforsyningsloven)",
+    "url": "https://www.retsinformation.dk"
+  },
+  {
+    "name": "Renewable Energy Act (Lov om fremme af vedvarende energi)",
+    "url": "https://www.retsinformation.dk"
+  }
+    ]
   },
   "Norway": {
     "title": "Norway",
@@ -314,7 +383,36 @@
       "Electric vehicles, electric heating, heat pumps, household batteries, distributed solar PV and flexible industrial demand",
       "EV charging is particularly important because unmanaged charging can create local peak-load problems, while smart charging can defer or reduce network reinforcement needs"
     ],
-    "sources": []
+    "sources": [
+      {
+    "name": "Norwegian Water Resources and Energy Directorate (NVE)",
+    "url": "https://www.nve.no/english/"
+  },
+  {
+    "name": "Regulatory Authority for Energy (RME)",
+    "url": "https://www.nve.no/reguleringsmyndigheten/"
+  },
+  {
+    "name": "Statnett",
+    "url": "https://www.statnett.no/en/"
+  },
+  {
+    "name": "Elhub",
+    "url": "https://elhub.no/en/"
+  },
+  {
+    "name": "Norwegian Energy Act (Energiloven)",
+    "url": "https://lovdata.no/dokument/NL/lov/1990-06-29-50"
+  },
+  {
+    "name": "Grid Connection Codes (RfG, DCC, HVDC)",
+    "url": "https://www.nve.no/norwegian-energy-regulatory-authority/regulatory-cooperation/grid-connection-codes-rfg-dcc-hvdc/"
+  },
+  {
+    "name": "RME – Network Tariffs",
+    "url": "https://www.nve.no/reguleringsmyndigheten/nettvirksomhet/nettleie/"
+  }
+    ]
   },
   "Sweden": {
     "title": "Sweden",
