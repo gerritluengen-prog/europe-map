@@ -30,15 +30,7 @@
       background: var(--bg);
       color: var(--text);
     }
-Nachgedacht für 28s
 
-Der Code ist jetzt an der richtigen Stelle, aber er hängt noch am window.load-Ereignis. Wenn vorher etwas beim Laden blockiert oder der Browser das Ereignis schon verpasst, bleibt der Startbildschirm sichtbar. In deiner Datei ist der Splash-Screen vorhanden und der rechte Bereich ist bereits auf 1fr 1fr gesetzt, also 50/50.
-
-Mach es robuster so:
-
-1. Ersetze dein Splash-CSS
-
-Suche diesen Block:
 
 #splash-screen {
   position: fixed;
@@ -414,16 +406,17 @@ function openComparisonModal() {
 
   comparisonCountries.forEach(country => {
     const data = countryData[country] || {};
+    const comparison = data.comparison || {};
 
     const row = document.createElement("tr");
 
     row.innerHTML = `
       <td><strong>${data.title || country}</strong></td>
-      <td>${formatList(data.responsibleInstitutions)}</td>
-      <td>${formatList(data.gridOperators)}</td>
-      <td>${data.gridConnectionProcedure || "Not specified yet."}</td>
-      <td>${formatList(data.regulatoryFramework)}</td>
-      <td>${formatList(data.implementationExamples)}</td>
+      <td>${formatTableValue(comparison.regulatoryAuthority)}</td>
+      <td>${formatTableValue(comparison.gridOperators)}</td>
+      <td>${formatTableValue(comparison.connectionProcedure)}</td>
+      <td>${formatTableValue(comparison.legalBasis)}</td>
+      <td>${formatTableValue(comparison.implementationExample)}</td>
     `;
 
     tableBody.appendChild(row);
@@ -493,7 +486,21 @@ function formatList(items) {
 
   return "<ul>" + items.map(item => `<li>${item}</li>`).join("") + "</ul>";
 }
-    
+function formatTableValue(value) {
+  if (!value) {
+    return "Not specified yet.";
+  }
+
+  if (Array.isArray(value)) {
+    if (value.length === 0) {
+      return "Not specified yet.";
+    }
+
+    return "<ul>" + value.map(item => `<li>${item}</li>`).join("") + "</ul>";
+  }
+
+  return value;
+}
     function hashCode(str) {
       let hash = 0;
       for (let i = 0; i < str.length; i++) {
