@@ -81,14 +81,45 @@
 "Austria": {
   "title": "Austria",
   "summary": "Österreich",
-  "gridConnectionProcedure": "",
-  "strategiesvolatility": [],
-  "regulatoryFramework": [],
-  "responsibleInstitutions": [],
+  "gridConnectionProcedure": "Renewable energy installations are connected to the grid in Austria through the responsible grid operators. The rapid expansion of small and medium-sized PV systems, in particular, is creating new requirements in low-voltage networks: feed-in peaks, voltage increases, bidirectional power flows, and a growing need for grid reinforcement. E-Control has therefore highlighted measures to accelerate grid connections and ensure the transparent handling of connection requests. For the project, Austria is particularly interesting because grid connection is being further developed not only technically but also organizationally and regulatorily.",
+  "strategiesvolatility": [
+    "Austria combines several flexibility options: hydropower and pumped-storage plants, smart meters, battery storage systems, smart grids, demand-side management, and energy communities. Smart Grids Austria and APG particularly emphasize the importance of intelligent grids for integrating renewable energy. At the distribution network level, intelligent local substations, grid monitoring, and controllable consumers are important technical solutions"
+  ],
+  "regulatoryFramework": [
+    "Key legal foundations include the Renewable Expansion Act (EAG), the Electricity Industry and Organization Act 2010 (ElWOG 2010), EU Directive 2018/2001 on renewable energy, and EU Directive 2019/944 on the internal electricity market. The EAG is particularly important because it provides the legal basis for energy communities and support mechanisms. ElWOG regulates market organization, grid operation, market roles, and security of supply."
+],
+  "responsibleInstitutions": [
+    "E-Control is the national regulatory authority supervising the electricity and gas markets. The Federal Ministry for Climate Action (BMK) is responsible for energy policy. Austrian Power Grid (APG) is the transmission system operator and system manager. Distribution system operators are responsible for local grid connections. The Austrian Coordination Office for Energy Communities supports practical implementation."
+  ],
   "gridOperators": [],
-  "implementationExamples": [],
-  "newconsumersandflexibleloads": [],
-  "sources": [],
+  "implementationExamples": [
+    "Energy communities play a particularly important role in Austria. The Renewable Expansion Act (EAG) enables Renewable Energy Communities and Citizen Energy Communities. This allows citizens, municipalities, small and medium-sized enterprises, and public institutions to jointly generate, consume, store, and sell electricity. The primary benefit is to use locally generated PV electricity as locally as possible. This can reduce grid losses, increase public acceptance of renewable energy, and create new business models for neighborhoods, municipalities, and regional cooperations."
+  ],
+  "newconsumersandflexibleloads": [
+    "New consumers mainly include heat pumps, EV charging stations (wallboxes), battery storage systems, and prosumer households. These increase the local grid load but can also support the grid through intelligent control. Heat pumps can use thermal storage, electric vehicles can shift charging times, and battery storage systems can reduce PV feed-in peaks. As a result, flexibility in distribution grids has become a key component of Austria’s energy transition."
+  ],
+  "sources": [
+       {
+      "name": "E-Control: Energy Communities",
+      "url": "https://www.e-control.at/energiegemeinschaften"
+    },
+           {
+      "name": "Renewable Expansion Act (EAG), Republic of Austria / RIS (2021)",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Erv/ERV_2021_1_150/ERV_2021_1_150.pdf"
+    },
+           {
+      "name": "E-Control: Electricity Act 2010 (ElWOG 2010)",
+      "url": ""
+    },
+           {
+      "name": "",
+      "url": ""
+    },
+           {
+      "name": "",
+      "url": ""
+    }
+  ],
    "comparison": {
       "regulatoryAuthority": "E-Control",
       "gridOperators": "Austrian Power Grid (APG); regional DSOs (e.g. Netz NÖ, Netz OÖ, Wiener Netze)",
@@ -283,13 +314,23 @@
   "Spain": {
     "title": "Spain",
     "summary": "España",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": "The connection of renewable energy installations is shaped by national and regional approval procedures, technical connection requirements, and grid capacity assessments. Large PV and wind projects are often connected to Red Eléctrica's transmission network, while self-consumption systems and community PV projects are mainly connected to distribution grids. The key challenge is balancing very high solar generation peaks with regional demand, available grid capacity, and storage.",
+    "strategiesvolatility": [
+      "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy. PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally. Battery storage and flexible loads are becoming increasingly important for absorbing midday PV peaks and shifting demand into the evening."
+    ],
+    "regulatoryFramework": [
+      "The main legal foundations are Royal Decree 244/2019 on self-consumption, Royal Decree-Law 23/2020, and other implementations of European rules concerning Renewable Energy Communities and Citizen Energy Communities. The EU Renewable Energy Directive and the EU Electricity Market Directive are also relevant. Regulatory priorities focus on simplifying self-consumption, collective use, metering, billing, and grid access."
+    ],
+    "responsibleInstitutions": [
+      "MITECO is the ministry responsible for ecological transition and energy policy. IDAE supports programs, advisory services, and implementation of self-consumption and energy communities. CNMC is the national regulatory authority for competition and markets. Red Eléctrica (REE) is the transmission system operator and system manager. Regional authorities and distribution system operators play a key role in approval and grid connection processes."
+    ],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
+    "implementationExamples": [
+      "Spain’s best practice lies in expanding PV self-consumption, collective self-consumption, and local energy communities. For Germany, neighborhood models, shared PV use, storage integration, and simplified billing models are particularly relevant. Spain demonstrates that regulatory simplification is a key success factor for prosumers, apartment buildings, and municipal energy communities."
+    ],
+    "newconsumersandflexibleloads": [
+      "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems. Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighborhoods, or municipal projects. This transforms consumers into active market participants."
+    ],
     "sources": []
     
   },
