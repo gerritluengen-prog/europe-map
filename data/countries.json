@@ -331,7 +331,24 @@
     "newconsumersandflexibleloads": [
       "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems. Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighborhoods, or municipal projects. This transforms consumers into active market participants."
     ],
-    "sources": []
+    "sources": [
+               {
+    "name": "IDAE: Self-consumption regulations",
+    "url": "https://www.idae.es/en/technologies/renewable-energies/self-consumption-office/self-consumption-regulations"
+  },
+                  {
+    "name": "Spain renewable energy communities (IEA Policies)",
+    "url": "https://www.iea.org/policies/17795-spain-renewable-energy-communities"
+  },
+                  {
+    "name": "Red Eléctrica: Self-consumption",
+    "url": "https://www.ree.es/en/ecological-transition/self-consumption"
+  },
+                  {
+    "name": "Climate Change Laws of the World / BOE reference: Royal Decree 244/2019",
+    "url": "https://climate-laws.org/document/royal-decree-244-2019-regulating-the-administrative-technical-and-economic-conditions-of-the-self-consumption-of-electric-energy_8775"
+  },
+    ]
     
   },
   "Italy": {
