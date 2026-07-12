@@ -337,14 +337,45 @@
   "Italy": {
     "title": "Italy",
     "summary": "Italia",
-    "gridConnectionProcedure": "",
-    "strategiesvolatility": [],
-    "regulatoryFramework": [],
-    "responsibleInstitutions": [],
+    "gridConnectionProcedure": "Renewable energy installations are connected through the responsible grid operators. Large installations are often connected to Terna's transmission network, while rooftop PV systems, prosumers, and battery storage systems are primarily connected to the distribution grid. The key challenge lies in the geographical distribution: renewable generation is often located where grid capacity is limited, whereas major consumption centers are situated in other regions. Terna addresses this development in its National Grid Development Plan, which outlines the expansion of the national transmission infrastructure and the integration of renewable energy.",
+    "strategiesvolatility": [
+      "Italy places a strong emphasis on digitalization. Second-generation smart meters not only provide more accurate consumption data but also serve as sensors for grid quality monitoring, fault detection, and decentralized generation. ARERA considers the further development of smart metering and flexibility services for distribution networks to be a strategic priority. In addition, battery storage, demand response, aggregators, and grid expansion are important instruments for limiting volatility."
+],
+    "regulatoryFramework": [
+      "Key legal foundations include Legislative Decree 199/2021 implementing the Renewable Energy Directive, Legislative Decree 210/2021 implementing the EU Electricity Market Directive, ARERA regulations on smart metering, tariff regulation, and flexibility services, as well as the technical grid connection rules established by network operators. The Italian system is strongly regulation-driven because smart meters, consumer protection, grid services, and flexibility are closely interconnected."
+    ],
+    "responsibleInstitutions": [
+      "ARERA is the national regulatory authority for energy, networks, and consumer protection. Terna is the transmission system operator and system manager. GSE is responsible for renewable energy support and settlement mechanisms. MASE is the responsible Ministry of Energy. Distribution system operators such as e-distribuzione and Areti implement smart metering and local grid connections in practice."
+],
     "gridOperators": [],
-    "implementationExamples": [],
-    "newconsumersandflexibleloads": [],
-    "sources": [],
+    "implementationExamples": [
+      "Italy's most significant best practice is its large-scale smart meter rollout. For Germany, the most relevant aspect is how smart meters can be used not only for billing purposes but also to provide grid status data, demand management, flexibility services, and prosumer integration. Italy demonstrates that digitalization of the distribution grid is a prerequisite for integrating high shares of photovoltaics and flexible electricity consumers."
+    ],
+    "newconsumersandflexibleloads": [
+      "New electricity consumers mainly include electric vehicles, heat pumps, prosumer households, battery storage systems, and flexible commercial and industrial processes. Italy's smart meter infrastructure represents a major advantage: electricity consumption and feed-in can be monitored in greater detail, enabling flexible tariffs, consumer feedback, grid monitoring, and, in the future, enhanced flexibility services."
+    ],
+    "sources": [
+         {
+    "name": "ARERA (2024): Annual Report Summary 2024",
+    "url": "https://www.arera.it/fileadmin/EN/publications/acer_and_ec/AR_2024_Summary_EN.pdf"
+  },
+            {
+    "name": "ARERA (2021): Strategic Framework 2022–2025",
+    "url": "https://www.arera.it/fileadmin/EN/publications/other_documents/strategicFramework22_25.pdf"
+  },
+            {
+    "name": "National Electricity Transmission Grid Development Plan (Terna)",
+    "url": "https://www.terna.it/en/electric-system/efficient-territorial-planning/national-electricity-transmission-grid-development-plan"
+  },
+            {
+    "name": "MASE (2023): Italian Implementation Plan",
+    "url": "https://www.mase.gov.it/portale/documents/d/guest/monitor_2023_piano_implementazione-pdf"
+  },
+            {
+    "name": "IEA Policies: Approval of rollout of second-generation smart meters by DSOs",
+    "url": "https://www.iea.org/policies/13729-approval-the-rollout-of-2nd-generation-smart-meters-by-dsos"
+  }
+    ],
      "comparison": {
       "regulatoryAuthority": "ARERA",
       "gridOperators": "Terna; e-distribuzione and other DSOs",
