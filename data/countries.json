@@ -207,34 +207,32 @@
   "title": "Portugal",
   "summary": "Portugal",
   "gridConnectionProcedure": [
-    "Portugal’s electricity system is governed by Decree-Law No. 15/2022, which establishes the organisation and functioning of the national electricity system, the Sistema Elétrico Nacional.",
-    "Self-consumption installations, known as UPAC, are registered and operated under the Portuguese self-consumption framework.",
-    "Connection to the public electricity grid, RESP, involves technical verification by the relevant network operator and regulatory compliance with ERSE rules."
+    "Portugal’s electricity system is governed by Decree-Law No. 15/2022, which establishes the organisation and functioning of the national electricity system, the Sistema Elétrico Nacional. Self-consumption installations, known as UPAC, are registered and operated under the Portuguese self-consumption framework. Connection to the public electricity grid, RESP, involves technical verification by the relevant network operator and regulatory compliance with ERSE rules."
   ],
   "strategiesvolatility": [
-   "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use.",
-   "The self-consumption regulation defines 15-minute energy balancing intervals, which is relevant for allocating consumption and injection in decentralised systems.",
-   "Smart grid services and digital metering are used to improve data availability, transparency and network operation."
+   "Portugal strongly relies on self-consumption, collective self-consumption and renewable energy communities to balance generation and demand closer to the point of use",
+   "The self-consumption regulation defines 15-minute energy balancing intervals, which is relevant for allocating consumption and injection in decentralised systems",
+   "Smart grid services and digital metering are used to improve data availability, transparency and network operation"
   ],
   "regulatoryFramework": [
-   "Decree-Law No. 15/2022: general electricity system law.",
-   "ERSE Regulation No. 2/2023: self-consumption regulation.",
-   "ERSE rules on smart grids, metering and electric mobility."
+   "Decree-Law No. 15/2022: general electricity system law",
+   "ERSE Regulation No. 2/2023: self-consumption regulation",
+   "ERSE rules on smart grids, metering and electric mobility"
   ],
   "responsibleInstitutions": [
-    "ERSE: national regulatory authority for energy services.",
-    "DGEG: Directorate-General for Energy and Geology, responsible for licensing and administrative energy procedures.",
-    "E-REDES: main distribution system operator."
+    "ERSE: national regulatory authority for energy services",
+    "DGEG: Directorate-General for Energy and Geology, responsible for licensing and administrative energy procedures",
+    "E-REDES: main distribution system operator"
   ],
   "gridOperators": [],
   "implementationExamples": [
-    "Collective self-consumption allows several consumers to share locally produced renewable electricity.",
-    "Renewable energy communities can use UPAC generation and distribute benefits among members.",
-    "E-REDES provides operational information for production licensing and connection to the RESP."
+    "Collective self-consumption allows several consumers to share locally produced renewable electricity",
+    "Renewable energy communities can use UPAC generation and distribute benefits among members",
+    "E-REDES provides operational information for production licensing and connection to the RESP"
   ],
   "newconsumersandflexibleloads": [
-    "UPAC installations, battery storage, renewable energy communities, EV charging infrastructure and collective self-consumption schemes.",
-    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision."
+    "UPAC installations, battery storage, renewable energy communities, EV charging infrastructure and collective self-consumption schemes",
+    "Electric mobility is regulated through ERSE’s Electric Mobility Regulation, covering charging point operators, service providers, measurement, data provision and price supervision"
   ],
   "sources": [
       {
@@ -299,7 +297,7 @@
     ],
     "gridOperators": [],
     "implementationExamples": [
-      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data hourly without having to lay direct physical cables."
+      "The concept of Autoconsommation collective allows several households within a 2-kilometer radius in the low-voltage grid to balance their generation and consumption data hourly without having to lay direct physical cables"
     ],
     "newconsumersandflexibleloads": [
       "Battery storage plays a minor role in the residential sector due to stable feed-in tariffs",
@@ -330,20 +328,34 @@
     "summary": "España",
     "gridConnectionProcedure": "The connection of renewable energy installations is shaped by national and regional approval procedures, technical connection requirements, and grid capacity assessments. Large PV and wind projects are often connected to Red Eléctrica's transmission network, while self-consumption systems and community PV projects are mainly connected to distribution grids. The key challenge is balancing very high solar generation peaks with regional demand, available grid capacity, and storage.",
     "strategiesvolatility": [
-      "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy. PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally. Battery storage and flexible loads are becoming increasingly important for absorbing midday PV peaks and shifting demand into the evening."
+      "Spain relies on grid expansion, energy storage, self-consumption, collective self-consumption, flexibility, and improved market integration of renewable energy",
+      "PV self-consumption can reduce electricity fed into the public grid when generation and consumption coincide locally",
+      "Battery storage and flexible loads are becoming increasingly important for absorbing midday PV peaks and shifting demand into the evening"
     ],
     "regulatoryFramework": [
-      "The main legal foundations are Royal Decree 244/2019 on self-consumption, Royal Decree-Law 23/2020, and other implementations of European rules concerning Renewable Energy Communities and Citizen Energy Communities. The EU Renewable Energy Directive and the EU Electricity Market Directive are also relevant. Regulatory priorities focus on simplifying self-consumption, collective use, metering, billing, and grid access."
+      "The main legal foundations are Royal Decree 244/2019 on self-consumption",
+      "Royal Decree-Law 23/2020",
+      "and other implementations of European rules concerning Renewable Energy Communities and Citizen Energy Communities",
+      "The EU Renewable Energy Directive and the EU Electricity Market Directive are also relevant",
+      "Regulatory priorities focus on simplifying self-consumption, collective use, metering, billing, and grid access"
     ],
     "responsibleInstitutions": [
-      "MITECO is the ministry responsible for ecological transition and energy policy. IDAE supports programs, advisory services, and implementation of self-consumption and energy communities. CNMC is the national regulatory authority for competition and markets. Red Eléctrica (REE) is the transmission system operator and system manager. Regional authorities and distribution system operators play a key role in approval and grid connection processes."
+      "MITECO is the ministry responsible for ecological transition and energy policy",
+      "IDAE supports programs, advisory services, and implementation of self-consumption and energy communities",
+      "CNMC is the national regulatory authority for competition and markets",
+      "Red Eléctrica (REE) is the transmission system operator and system manager",
+      "Regional authorities and distribution system operators play a key role in approval and grid connection processes"
     ],
     "gridOperators": [],
     "implementationExamples": [
-      "Spain’s best practice lies in expanding PV self-consumption, collective self-consumption, and local energy communities. For Germany, neighborhood models, shared PV use, storage integration, and simplified billing models are particularly relevant. Spain demonstrates that regulatory simplification is a key success factor for prosumers, apartment buildings, and municipal energy communities."
+      "Spain’s best practice lies in expanding PV self-consumption, collective self-consumption, and local energy communities",
+      "For Germany, neighborhood models, shared PV use, storage integration, and simplified billing models are particularly relevant",
+      "Spain demonstrates that regulatory simplification is a key success factor for prosumers, apartment buildings, and municipal energy communities"
     ],
     "newconsumersandflexibleloads": [
-      "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems. Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighborhoods, or municipal projects. This transforms consumers into active market participants."
+      "New consumers in Spain primarily include electric vehicles, heat pumps in certain building segments, battery storage systems, prosumers, and commercial self-consumption systems",
+      "Collective self-consumption is especially important: multiple consumers can jointly use a single generation facility, for example in apartment buildings, neighborhoods, or municipal projects",
+      "This transforms consumers into active market participants"
     ],
     "sources": [
                {
